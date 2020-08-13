@@ -1,6 +1,6 @@
-# Import dependencies
-import os, csv
-from pathlib import Path 
+# Import CSV file 
+import os
+import csv
 
 # Assign file location with the pathlib library
 csv_file_path = Path("python-challenge", "PyPoll", "election_data.csv")
